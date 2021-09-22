@@ -102,13 +102,13 @@ nav ul li:hover{
     color: black;
 }
 .info .btns button:nth-child(1):hover{
-    background-color: #f3f310;
+    background-color: hsl(120, 90%, 51%);
 }
 .info .btns button:nth-child(2){
     background-color: blueviolet;
 }
 .info .btns button:nth-child(2):hover{
-    background-color: rgb(72, 29, 112);
+    background-color: hsl(120, 90%, 51%);
     color: white;
 }
 .section1{
@@ -149,7 +149,7 @@ nav ul li:hover{
     flex-wrap: wrap;
 }
 .section3 .para1{
-    background: linear-gradient(#e66465, #9198e5);
+    /* background: linear-gradient(#e48b62, #9198e5); */
     width: 200px;
     padding: 20px;
     margin: 10px;
@@ -175,7 +175,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .section3 .para1 button:hover{
-    background-color: #f3f310;
+    background-color: hsl(120, 90%, 51%);
     color: black;
     box-shadow: 1px 1px 12px rgba(0,0,0,0.6);
 }
@@ -229,7 +229,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .section5 .img1 button:hover{
-    background-color: #f3f310;
+    background-color: hsl(120, 90%, 51%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     color: black;
     
@@ -281,12 +281,13 @@ section6 h1{
     cursor: pointer;
 }
 .section7 button:hover{
-    background-color: #f3f310;
+    background-color: hsl(120, 90%, 51%);
     color: black;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 .color{
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#573464, #573464);
+    color : white;
     padding-top: 1rem;
     margin: 1rem;
 }
@@ -342,10 +343,14 @@ section6 h1{
 .item1 p{
     width: 200px;
     margin-top: -0.8rem;
-    margin-left: 1.9rem;
+    margin-left: 3.5rem;
     font-family: sans-serif;
     font-size: 16px;
     opacity: 0.6;
+}
+.names{
+    margin-left: 30px;
+    /* margin-bottom: 5px; */
 }
 .section12 h1{
     position: relative;
@@ -501,7 +506,7 @@ form{
     flex-wrap: wrap;
 }
 .section16 .blog1{
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#f3dadd, #9198e5);
     width: 200px;
     padding: 10px;
     text-align: center;
@@ -520,7 +525,7 @@ form{
     cursor: pointer;
 }
 .section16 button:hover{
-    background-color: #f3f310;
+    background-color: lightgreen;
     color: black;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
@@ -569,7 +574,7 @@ form{
     font-size: 16px;
 }
 .section17 form input[type="submit"]:hover{
-    background-color: #f3f310;
+    background-color: whitesmoke;
     color: black;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -596,7 +601,7 @@ footer .foot1{
     font-size: 22px;
 }
 .icon i:hover{
-    background-color:#f3f310;
+    background-color:whitesmoke;
     padding: 0.9rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
